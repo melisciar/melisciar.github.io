@@ -31,7 +31,7 @@ h2 {
   margin-top: 0px;
   font-family: "Raleway", sans-serif;
 }
-p {
+p, li {
   font-family: "Poppins", sans-serif;
 }
 #navbar {
@@ -91,11 +91,6 @@ p {
 .project-tile img {
   width: 100%;
 }
-
-#about {
-  padding-top: 60px;
-  min-height: 100vh;
-}
 #about h2, #contact h2 {
   text-align: center;
   font-size: 2em;
@@ -105,10 +100,34 @@ p {
     max-width: 80%;
     text-align: center;
     color: #666;
+    padding: 5px;
+}
+.espaciado{
+  padding: 60px 0px;
+}
+#skills{
+  display: flex;
+  margin: 0 auto;
+  max-width: 80%;
+}
+.columna{
+  flex: 50%;
+  text-align: center;
+  padding: 0 10%;
+}
+.columna h3{
+  background-color: var(--accent);
+}
+.columna ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.columna ul li{
+  padding: 5px;
+  color: #666;
 }
 #contact {
-  padding-top: 100px;
-  min-height: 100vh;
   background-color: var(--accent);
 }
 
