@@ -40,6 +40,15 @@ p, li {
   width: 100%;
   position: fixed;
 }
+#navbar .menu{
+  margin: 0 auto;
+  max-width: 90%;
+}
+#inicio{
+  color: var(--fondo);
+  font-size: 40px;
+  padding: 5px;
+}
 #navbar ul {
   list-style-type: none;
   float: right;
@@ -64,7 +73,6 @@ p, li {
   grid-template-rows: repeat(auto-fill, minmax(65px, 30%));
   grid-gap: 15px;
   justify-content: center;
-  padding: 50px 5px;
 }
 #projects h2 {
   grid-area: 1/1/2/4;
@@ -107,11 +115,12 @@ p, li {
 }
 #skills{
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   max-width: 80%;
 }
 .columna{
-  flex: 50%;
+  flex: 25%;
   text-align: center;
   padding: 0 10%;
 }
