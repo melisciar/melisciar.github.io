@@ -177,6 +177,11 @@ p, li {
 }
 .redes a{
   color: var(--footer);
+  padding: 1%;
+  border-radius: 50%;
+}
+.redes a:hover{
+  color: var(--nav);
 }
 
 @media (max-width: 600px) {
