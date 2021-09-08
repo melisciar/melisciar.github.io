@@ -185,3 +185,12 @@ p, li {
     display: none;
   }
 }
+@media (max-width: 950px){
+  #projects h2{grid-area: 1/1/2/3;}
+  #projects {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(65px, 1fr));
+    grid-gap: 15px;
+    justify-content: center;
+  }
+}
