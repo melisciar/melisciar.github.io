@@ -50,6 +50,7 @@ p, li {
   font-size: 40px;
   padding: 5px;
 }
+
 #navbar ul {
   list-style-type: none;
   float: right;
@@ -70,7 +71,7 @@ p, li {
 #projects {
   background-color: #e5cedc;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 30%));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 30%));
   grid-template-rows: repeat(auto-fill, minmax(65px, 30%));
   grid-gap: 15px;
   justify-content: center;
@@ -167,7 +168,7 @@ p, li {
   background-color: var(--accent);
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   #projects {
     display: flex;
     flex-direction: column;
@@ -180,4 +181,7 @@ p, li {
 .overlay-box:focus .desc {
   opacity: 0;
 }
+  .menu ul{
+    display: none;
+  }
 }
