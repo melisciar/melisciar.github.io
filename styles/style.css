@@ -167,6 +167,17 @@ p, li {
 #contact {
   background-color: var(--accent);
 }
+.redes{
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 60px;
+  padding: 50px;
+}
+.redes a{
+  color: var(--footer);
+}
 
 @media (max-width: 600px) {
   #projects {
